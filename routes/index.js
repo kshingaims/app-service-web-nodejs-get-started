@@ -14,7 +14,7 @@ router.get('/', function(req, res, next) {
 router.post('/wait', async (req, res) => {
   const requestData = req.body;
   await new Promise(resolve => setTimeout(resolve, 3 * 60 * 1000));
-  res.status(200).send('Waited for 3 minutes: ' + ipv4Address);
+  res.status(200).send('Waited for 3 minutes');
 });
 
 module.exports = router;
