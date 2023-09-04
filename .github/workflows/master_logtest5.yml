@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'LOGTEST5'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2F7BA3791B57474BA2AEA47A07F2CB2A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7BAB8CA5BFD446A48D98093CF5B92438 }}
           package: .
