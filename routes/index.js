@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   console.log("--- test ---");
-  console.log("--- error ---")
+  console.error("--- error ---")
   res.render('index', { title: 'Express' });
 });
 
